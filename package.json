@@ -29,34 +29,27 @@
   },
   "author": "Olof Dahlbom",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "@react-native-community/async-storage": "^1.9.0",
     "@react-native-community/netinfo": "^4.0.0",
+    "@types/react": "^16.9.34",
     "debounce": "^1.0.2",
     "json-stringify-safe": "^5.0.1",
     "moment": "^2.18.1",
     "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-native": "^0.62.2",
+    "realm": "^5.0.3",
     "stacktrace-parser": "^0.1.4",
     "uuid": "^7.0.3"
   },
   "devDependencies": {
-    "@types/react": "^16.9.34",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.19.0",
     "prettier": "^2.0.5",
-    "react": "^16.11.0",
-    "react-native": "^0.62.2",
-    "realm": "^5.0.3",
-    "typescript": "^3.8.3",
-    "@react-native-community/async-storage": "^1.9.0",
-    "@react-native-community/netinfo": "^4.0.0",
-    "debounce": "^1.0.2",
-    "json-stringify-safe": "^5.0.1",
-    "moment": "^2.18.1",
-    "prop-types": "^15.7.2",
-    "stacktrace-parser": "^0.1.4"
+    "typescript": "^3.8.3"
   }
 }
